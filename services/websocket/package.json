@@ -1,0 +1,14 @@
+{
+  "name": "@notification-platform/websocket",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "redis": "^5.0.0",
+    "ws": "^8.18.0"
+  }
+}
