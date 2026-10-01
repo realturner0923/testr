@@ -1,0 +1,15 @@
+{
+  "name": "@notification-platform/webhook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@octokit/webhooks-methods": "^6.0.0",
+    "amqplib": "^0.10.9",
+    "dotenv": "^18.0.5",
+    "express": "^5.1.0"
+  }
+}

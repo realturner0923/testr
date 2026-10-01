@@ -1,0 +1,15 @@
+{
+  "name": "@notification-platform/notification",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "redis": "^5.0.0"
+  }
+}
